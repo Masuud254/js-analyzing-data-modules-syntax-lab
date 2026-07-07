@@ -1,7 +1,7 @@
 
 function combineUsers(...arrays) {
   const users = [].concat(...arrays);
-  const merge_date = new Date();
+ const merge_date = new Date().toLocaleDateString();
   return {
     users,
     merge_date
